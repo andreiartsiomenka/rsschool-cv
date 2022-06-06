@@ -1,1 +1,1 @@
-https://github.com/andreiartsiomenka/rsschool-cv/cv.md
+https://github.com/andreiartsiomenka/rsschool-cv/blob/main/cv.md
