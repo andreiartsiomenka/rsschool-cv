@@ -2,72 +2,135 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CV</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <title>cv</title>
+</head>
 <body>
-    <h2>About Myself:</h2>
-<ul>
-    <li>performance.</li>
-    <li>teamwork skills.</li>
-    <li>self-awareness</li>
-</ul>
-    <h2>Knowledge of programming languages:</h2>
-<ul>
-    <li> PHP</li>
-    <li>JAVA</li>
-    <li>HTML/CSS</li>
-</ul>
-<h2>Code Example</h2>
-<pre>
-<code>
-package by.basic.unit1_basics_of_software_code_development.line_program;<br>
-
-    import java.util.Scanner;<br>
-    /*<br>
-        * 1. Find the value of a function: z = ( (a – 3 ) * b / 2) + c.<br>
-    *<br>
-    * */<br>
-
-            public class task1 {<br>
-            public static void main(String[] args) {<br>
-@SuppressWarnings("resource")<br>
-Scanner scanner = new Scanner(System.in);<br>
-double a = 0;<br>
-double b = 0;<br>
-double c = 0;<br>
-
-System.out.print("Input a number a ,b ,c: ");<br>
-while (!scanner.hasNextDouble()){<br>
-scanner.nextLine();<br>
-System.out.println("type not double");<br>
-}
-a = scanner.nextDouble();<br>
-b = scanner.nextDouble();<br>
-c = scanner.nextDouble();<br>
-
-System.out.printf("a=%f; b=%f; c=%f \n", a, b, c);<br>
-
-double z = ( ( a - 3 ) * b / 2 ) + c;<br>
-
-System.out.printf("z= ( ( %f - 3) * %f / 2 ) + %f = %f\n", a, b, c, z);<br>
-
-}<br>
-}<br>
-    </code>
-
-            </pre>
-<h2>Work experience</h2>
-<ul>
-    <li>Brest signaling and communication distance</li>
-    <li>Benning electrical and electronic engineering</li>
-</ul>
-<h2> Education:</h2>
-<ul>
-    <li>Brest College of Railway Transport</li>
-    <li>Brest State University named after A.S. Pushkin</li>
-</ul>
-<h2> English language</h2>
-<p>I am a beginner at International Language House.</p>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#courses" class="nav-link">Corses</a></li>
+                  <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+              </nav>
+        </div>
+    </header>
+    <main class="main-container">
+        <div class="container">
+            <section class="section" id="profile">
+                <img src="assets/img/avatar.jpeg" alt="avatar">
+                <h1>ANDREI ARTSIOMENKA</h1>
+                <h2>JUNIOR FRONT-END DEVELOPER</h2>
+            </section>
+            <section class="section" id="contacts">
+                <h2>CONTACTS</h2>
+                <ul>
+                    <li>Brest, Belarus</li>
+                    <li>Email:andreiartsiomenka@gmail.com</li>
+                    <li>Githab:andreiartsiomenka</li>
+                    <li>Discord:Andry Artemenko#6499</li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2>SUMMARY:</h2>
+                <ul>
+                    <li>performance</li>
+                    <li>teamwork skills</li>
+                    <li>self-awareness</li>
+                </ul>
+            </section>
+            <section class="section" id="skills">
+         <h2>SKILLS</h2>
+         <ul>
+            <li>Web-development: HTML5, CSS3,</li>
+            <li>Version control: GIT, Githab</li>
+         </ul>
+            </section>
+            <section class="section" id="code">
+         <h2>CODE</h2>
+        <code>
+            package by.basic.unit1_basics_of_software_code_development.line_program;<br>
+            
+                import java.util.Scanner;<br>
+                /*<br>
+                    * 1. Find the value of a function: z = ( (a вЂ“ 3 ) * b / 2) + c.<br>
+                *<br>
+                * */<br>
+            
+                        public class task1 {<br>
+                        public static void main(String[] args) {<br>
+            @SuppressWarnings("resource")<br>
+            Scanner scanner = new Scanner(System.in);<br>
+            double a = 0;<br>
+            double b = 0;<br>
+            double c = 0;<br>
+            
+            System.out.print("Input a number a ,b ,c: ");<br>
+            while (!scanner.hasNextDouble()){<br>
+            scanner.nextLine();<br>
+            System.out.println("type not double");<br>
+            }
+            a = scanner.nextDouble();<br>
+            b = scanner.nextDouble();<br>
+            c = scanner.nextDouble();<br>
+            
+            System.out.printf("a=%f; b=%f; c=%f \n", a, b, c);<br>
+            
+            double z = ( ( a - 3 ) * b / 2 ) + c;<br>
+            
+            System.out.printf("z= ( ( %f - 3) * %f / 2 ) + %f = %f\n", a, b, c, z);<br>
+            
+            }<br>
+            }<br>
+                </code>
+            
+            </section>
+            <section class="section" id="courses">
+         <h2>COURSES</h2>
+         <ul>
+            <li>Introduction to Java</li>
+            <li>Introduction to JavaScript</li>
+         </ul>
+            </section>
+            <section class="section" id="projects">
+         <h2>PROJECTS</h2>
+         <ul>
+            <li>introduction-to-java</li>
+            <li>rsschool-cv</li>
+         </ul>
+            </section>
+            <section class="section" id="education">
+                <h2> EDUCATION</h2>
+                <ul>
+                    <li>Brest College of Railway Transport</li>
+                    <li>Brest State University named after A.S. Pushkin</li>
+                </ul>
+                
+            </section>
+            <section class="section" id="english">
+                <h2> ENGLISH</h2>
+                <p>I am a beginner at International Language House.</p>
+                
+            </section>
+        </div>
+    </main> 
+    <footer class="footer">
+        <div class="container">
+            <p>© 2022 andreiartsiomenka 
+                <object type="image/svg+xml" data="assets/rs_school_js.svg" width="100" height="100" >
+             </object></p>
+        <p><a href="https://rs.school/js/">RS SCHOOL</a></p>
+        </div>
+    </footer>
 </body>
 </html>
